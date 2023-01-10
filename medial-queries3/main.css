@@ -1,3 +1,48 @@
 body {
   background: peachpuff;
 }
+*{
+  border: 2px solid black;
+}
+
+@media (min-width:600px) {
+  .a{ display: flex;
+    background-color: aquamarine;
+    height: 250px;
+    width: 600px;
+    margin-bottom: 20px;
+  
+  }
+  .b, .c, .d{
+    display: inline-block;
+  }
+
+    
+  .b, .c , .d{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .e, .f, .g{
+    background-color: green;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .h {
+    display: flex;
+    align-items: baseline;
+    height: 250px;
+    width: 650px;
+    background-color: aqua;
+    
+
+  }
+
+  
+
+}
